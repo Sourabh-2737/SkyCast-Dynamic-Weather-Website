@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  margin: auto;
+}
+body{
+  min-height: 100vh;
+  max-height: 100%;
+  /* padding: 10px; */
+  background-image:url(../src/Images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.leftContainer, .rightContainer{
+  position: relative;
+  /* height: 70vh; */
+  min-height: 40vh;
+  max-height: 100%;
+}
+.leftContainer{
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../src/Images/Left\ Container.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.rightContainer{
+  min-height: 35%;
+  padding: 20px 50px;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.8)), url(../src/Images/Right\ Container.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cityDetails{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.temperature{
+  position: absolute;
+  top: 40%;
+  font-size: 4rem;
+}
+.time{
+  position: absolute;
+  text-align: left;
+  bottom: 10px;
+  left: 20px;
+}
+.list-group-item{
+  color: white;
+  background: transparent;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.search input{
+  display: inline-block;
+  font-weight:600;
+  font-size: 1.2rem;
+  padding: 8px 0px;
+  border: none;
+  border-bottom: 3px solid white;
+  text-align: center;
+}
+.weatherMain{
+  font-size: 3rem;
+}
+.weatherIcon img{
+  margin: 10px 0px;
+  max-width: 50%;
+  /* width: 20%; */
+}
+.appLogo{
+  width: 125px;
+  padding-bottom: 20px;
+}
+.appName{
+  text-decoration: underline;
+  font-size: 3rem;
+  display: inline-block;
+  color: white;
+  font-size: bold;
+  margin: 10px;
+}
+/* .headerSpan{
+  padding: 20px;
+} */
+.footer{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 10px 0px;
+}
+.footer img{
+  width: 1.8rem;
+  cursor: pointer;
+}
