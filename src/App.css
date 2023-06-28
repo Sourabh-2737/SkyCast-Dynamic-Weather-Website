@@ -18,6 +18,7 @@ body{
   max-height: 100%;
 }
 .leftContainer{
+  min-height: 35%;
   color: white;
   font-weight: bold;
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../src/Images/Left\ Container.jpg);
